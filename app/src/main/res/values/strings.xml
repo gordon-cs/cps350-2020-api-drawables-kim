@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">DrawableApp</string>
+    <string name="start_new">New</string>
+    <string name="brush">Brush</string>
+    <string name="erase">Erase</string>
+    <string name="save">Save</string>
+    <string name="paint">Paint</string>
+    <string name="llama">Llama</string>
+    <string name="expand_collapse">ExpandCollapse</string>
+    <string name="llama_expand">LlamaExpanded</string>
+    <string name="llama_collapse">LlamaExpanded</string>
+    <string name="toggleButton">Toggle Button</string>
+    <string name="stripes_bitmap">Pattern</string>
+</resources>

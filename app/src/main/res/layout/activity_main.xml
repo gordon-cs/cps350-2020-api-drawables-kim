@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFCCCCCC"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="177dp"
+                android:contentDescription="@string/llama"
+                android:src="@drawable/llama"
+                android:tint="#55ff0000" />
+
+            <ImageButton
+                android:id="@+id/toggle_image"
+                android:layout_width="wrap_content"
+                android:layout_height="175dp"
+                android:contentDescription="@string/expand_collapse"
+                android:src="@drawable/expand_collapse" />
+
+            <ImageView
+                android:id="@+id/stripes_bitmap"
+                android:layout_width="wrap_content"
+                android:layout_height="175dp"
+                android:contentDescription="@string/stripes_bitmap"
+                android:src="@drawable/stripes_bitmap" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/toggleButton" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
